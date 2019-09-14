@@ -1,4 +1,4 @@
-version = 0.0
+version = 0.1
 container = "gft-ner-service"
 
 protocGenerate:
