@@ -9,3 +9,4 @@ cll/
 *.out
 *.bak
 venv/
+generated/

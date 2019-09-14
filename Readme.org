@@ -1,0 +1,5 @@
+#+TITLE: Readme
+
+* Tasks
+** TODO - replace 100$ with 100 dollars (etc )
+- it will help ner recognise shit
