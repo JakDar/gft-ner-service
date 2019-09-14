@@ -4,12 +4,12 @@ import time
 import generated.ner_pb2 as proto
 import generated.ner_pb2_grpc as proto_grpc
 from logging import Logger
-import en_core_web_sm
+import en_core_web_lg
 from spacy.tokens.span import Span
 from typing import Tuple
 from functional import seq
 
-nlp = en_core_web_sm.load()
+nlp = en_core_web_lg.load()
 
 
 def get_entities(text: str) -> Tuple[Span]:
@@ -29,6 +29,10 @@ ner_mapping = {
     "QUANTITY": proto.NerType.QUANTITY,
     "CARDINAL": proto.NerType.CARDINAL,
     "DATE": proto.NerType.DATE,
+    "PERCENT": proto.NerType.PERCENT,
+    "TIME": proto.NerType.TIME,
+    "PRODUCT": proto.NerType.PRODUCT,
+    "NORP": proto.NerType.NORP,
 }
 
 

@@ -6,7 +6,7 @@ RUN python -m pip install wheel
 RUN python -m pip install grpcio-tools==1.22.0
 RUN python -m pip install pyfunctional
 RUN python -m pip install spacy==2.1.8
-RUN python -m spacy download en_core_web_sm
+RUN python -m spacy download en_core_web_lg
 
 RUN mkdir -p /app/generated
 

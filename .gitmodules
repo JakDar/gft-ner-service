@@ -1,0 +1,3 @@
+[submodule "gft-proto"]
+	path = gft-proto
+	url = git@gitlab.com:codeheroes_/hackyeah-2019-gft/gft-proto.git
